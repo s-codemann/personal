@@ -1,0 +1,40 @@
+<div class="cont">
+  <div class="top">
+    <div class="intro-text">
+      <span class="full_name">Sascha Brodmann</span>
+      <span class="intro">Web Designer</span>
+      <div class="intro-box">
+        <div class="pitch">
+          Ich biete Ihnen u.a.
+          <ul>
+            <li>Konzeption</li>
+            <li>Umsetzung</li>
+            <li>Branding</li>
+          </ul>
+          <button>Alle Leistungen</button>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <a class="contact" href="#">Kontakt</a>
+      <a href="#" class="about">Warum ich?</a>
+    </div>
+    <div class="intro-image"><img src="assets/img/me1.png" alt="" /></div>
+  </div>
+  <div class="middle">
+    <span class="greeting" *ngIf="!showNav">Welcome to my page!</span>
+
+    <div class="deco r"></div>
+    <div class="deco l"></div>
+    <div class="deco l2"></div>
+    <div class="deco r2"></div>
+    <nav *ngIf="showNav">
+      <div class="logo"><img src="assets/img/logo.png" alt="" /></div>
+      <div class="links">
+        <a href="">Skills</a><a href="">Projects</a><a href="">Contact</a>
+      </div>
+      <div class="home"><img src="" alt="" /><img src="" alt="" /></div>
+    </nav>
+  </div>
+  <div class="bottom"></div>
+</div>
